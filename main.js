@@ -1,7 +1,7 @@
 document.querySelector('#btnCount').addEventListener('click', function() {
-    const width = parseInt(document.querySelector('#width').value);
-    const height = parseInt(document.querySelector('#height').value);
-    const threadCount = parseInt(document.querySelector('#threadCount').value);
+    const width = Number(document.querySelector('#width').value);
+    const height = Number(document.querySelector('#height').value);
+    const threadCount = Number(document.querySelector('#threadCount').value);
     const result = document.querySelector('#result');
 
     if (threadCount === 2) {
