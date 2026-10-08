@@ -20,8 +20,6 @@ document.querySelector('#lamelBtn').addEventListener('click', function() {
     const centralLamel = Number(document.querySelector('#centralLamel').value);
     const lamelCount = Number(document.querySelector('#lamelCount').value);
     const lamelResult = document.querySelector('#lamelResult');
-
-    lamelResult.value = Number(21);
     
 
     lamelResult.classList.remove('d-none');
