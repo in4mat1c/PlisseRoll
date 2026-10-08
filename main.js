@@ -14,3 +14,14 @@ document.querySelector('#btnCount').addEventListener('click', function() {
     }
     result.classList.remove('d-none');
 })
+
+document.querySelector('#lamelBtn').addEventListener('click', function() {
+    const lastLamel = Number(document.querySelector('#lastLamel').value);
+    const centralLamel = Number(document.querySelector('#centralLamel').value);
+    const lamelCount = Number(document.querySelector('#lamelCount').value);
+    const lamelResult = document.querySelector('#lamelResult');
+
+    
+
+    lamelResult.classList.remove('d-none');
+})
